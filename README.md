@@ -113,15 +113,15 @@ Participants will:
 Our judging panel is made up of industry leaders, data scientists, AI ethics professionals, and engineers across tech firms like Meta, Google, Amazon, Visa, JPMorgan, and Walmart, who will evaluate your work based on the following key areas. Each area reflects both the technical quality of your work and your ability to think critically about fairness, impact, and communication.
 
 1. Bias Identification (30 points)
-   We’re looking for how well you detected and explained patterns of bias in the dataset or model predictions.
+   We're looking for how well you detected and explained patterns of bias in the dataset or model predictions.
 Strong entries will show clear evidence of bias across multiple demographic groups (e.g., gender, race, income) and thoughtfully discuss false positives/negatives and their real-world implications.
 
 2. Model Design & Justification (30 points)
-   Your model doesn’t need to be perfect, but your choices should be intentional. This includes the algorithms you used, the features you engineered, and how you approached fairness. We value models that are interpretable and grounded in thoughtful design, not just performance.
+   Your model doesn't need to be perfect, but your choices should be intentional. This includes the algorithms you used, the features you engineered, and how you approached fairness. We value models that are interpretable and grounded in thoughtful design, not just performance.
 
 3. Interpretability & Insights (20 points)
    Judges will be looking at how well you explain your results.
-Use charts, plots, tools like SHAP/LIME, or group breakdowns to show what’s happening inside your model, especially when it behaves unfairly.
+Use charts, plots, tools like SHAP/LIME, or group breakdowns to show what's happening inside your model, especially when it behaves unfairly.
 
 4. Presentation & Clarity (20 points)
    Clear communication is key. Your README, demo video, and any supporting materials should help others understand your work without confusion. The best submissions will be organized, polished, and easy to follow, even for non-technical reviewers.
@@ -144,3 +144,25 @@ We are committed to providing a welcoming and inclusive environment for all part
 # 💬 Communication
 
 Join our community via our [Slack Invite Link](https://join.slack.com/t/hackthefest/shared_invite/zt-380la7fd3-xk~zDvk~kZIrqr_HznLHbQ)
+
+
+# 🗂️ Project Structure
+
+| File/Folder         | Purpose                                                      |
+|---------------------|--------------------------------------------------------------|
+| loan_model.py       | Main Python script for data processing, modeling, and bias analysis |
+| loan_model.ipynb    | Jupyter notebook for EDA, modeling, and reporting            |
+| requirements.txt    | Python dependencies for the project                          |
+| outputs/            | Folder for generated outputs (e.g., submission.csv, reports) |
+| charts/             | Folder for generated charts and visualizations               |
+| datasets/           | Provided datasets (train/test)                               |
+| resources/          | Templates and reference materials                            |
+
+## Getting Started
+
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Run the notebook for step-by-step workflow, or use `loan_model.py` for a script-based approach.
+3. Outputs and charts will be saved in their respective folders.
